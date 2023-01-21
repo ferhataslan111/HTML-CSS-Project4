@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+   font-family: Algerian;
+   src: url(fonts/ALGER.TTF);
+}
+
+@font-face {
+   font-family: Bauhaus 93;
+   src: url(fonts/BAUHS93.TTF);
+}
+
+
+
+header{
+	font-family: "Bauhaus 93";
+	font-size: 30px;
+	text-shadow: 2px 3px black;
+	color: white;
+	
+	border: 0px outset #F068FB;
+	
+	z-index: 1;
+	
+	text-align: center;
+	background-color: #657cfe;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	
+}
+
+nav{
+	overflow: hidden;
+	font-family: "Bauhaus 93";
+	background-color: #333;
+	border: 0px outset #F0525B;
+	
+	
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	text-align: right;
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	top: 100px;
+}
+
+.navgt{
+	border: 1px outset black;
+	margin: 6px;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	
+	
+}
+
+.navgt:hover{
+	background: #ddd;
+	cursor: grab;
+}
+/*
+.navgt:visited{
+	color: gray;
+}*/
+.navgt:focus{
+	background-color: darkcyan;
+	cursor: grabbing;
+}
+
+section{
+	float: left;
+	border: 0px outset #3AE484;
+	border-radius: 10px;
+	margin-top: 150px;
+	width: 100%;
+}
+
+article{
+	border: 0px outset #FFF664;
+	border-radius: 50px;
+	width: 100%;
+}
+
+img{
+	border-radius: 50px;
+	width: 100%;
+}
+
+h4{
+	font-family: "Bauhaus 93";
+	font-size: 30px;
+	
+	text-align: center;
+}
+
+#containerAsidePort1{
+	display: flex;
+	margin-top: 10px;
+	z-index: 2;
+	
+}
+.portfolyo1{
+	
+	border: 0px outset black;
+	width: 30%;
+	border-radius: 10px;
+	margin: auto;
+	float: left;
+	
+}
+.portfolyo1:hover{
+	filter: drop-shadow(20px 15px 4px #474646)	
+}
+
+#containerAsidePort2{
+	display: flex;
+	margin-top: 20px;
+	
+	z-index: 2;
+}
+.portfolyo2{
+	border: 0px outset black;
+	width: 30%;
+	border-radius: 10px;
+	margin: auto;
+	float: left;
+	
+	filter: blur(0);
+}
+.portfolyo2:hover{
+	filter: blur(2px);
+}
+
+#hakkimizdaAside{
+	border: 1px outset black;
+	width: 80%;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 10px auto;
+}
+
+#iletisimAside{
+	border: 0px outset black;
+	border-radius: 10px;
+	width: 40%;
+	margin: 10px auto;
+}
+
+.formText{
+	float: right;
+	margin-right: 30%;
+}
+
+fieldset{
+	border-radius: 20px;
+	border-style: ridge;
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	border: 0px outset #717171;
+	background-color: #657cfe;
+}
+
+
+
+
+
